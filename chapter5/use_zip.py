@@ -10,3 +10,8 @@ for index, day in enumerate(days):
 
 # if you use lists of different lengths, zip will stop after shortest list is exhausted
 # for more details check the itertools library
+
+#Other way:
+
+for day, meal in zip(days, lunch):
+    print("On {} we offer {} for lunch.".format(day, meal))

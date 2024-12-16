@@ -11,5 +11,5 @@ if __name__ == "__main__":
     print("Runs as main")
     print_name()
 else:
-    print("Runs as import")
+    print("Runs as import") # This is for when me use this module as an import (look in module2). Then it will read this message
     print_name()
